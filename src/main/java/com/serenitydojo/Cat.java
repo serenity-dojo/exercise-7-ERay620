@@ -19,6 +19,16 @@ public class Cat extends Pet {
     }
 
     @Override
+    public String makeNoise() {
+        return null;
+    }
+
+    @Override
+    public String goForWalks() {
+        return null;
+    }
+
+    @Override
     public String play() {
         return "plays with string";
     }
